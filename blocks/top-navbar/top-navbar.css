@@ -1,0 +1,17 @@
+.top-navbar {
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 138px 26px 0;
+    padding-top: 26px;
+
+
+}
+
+
+
+

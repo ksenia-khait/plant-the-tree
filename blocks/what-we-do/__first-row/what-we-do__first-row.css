@@ -1,0 +1,8 @@
+.what-we-do__first-row {
+display: flex;
+    position: relative;
+    min-height: 703px;
+    margin-left: 360px;
+    margin-bottom: 82px;
+
+}

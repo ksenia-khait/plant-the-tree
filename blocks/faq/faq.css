@@ -1,0 +1,28 @@
+.faq {
+    padding-bottom: 250px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.faq__title {
+    font-size: 36px;
+}
+
+.faq__text-block {
+    margin-right: 120px;
+}
+
+.faq__link {
+   color: #2F80ED;
+}
+
+.faq:hover+ .fadeInUp {
+    opacity: 1;
+    transition: 1s;
+}
+
+.faq__paragraph {
+    display: flex;
+    flex-direction: column;
+}

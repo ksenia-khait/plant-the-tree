@@ -1,0 +1,8 @@
+.faq__img {
+    position: absolute;
+    bottom: -120px;
+    right: -299px;
+    width: 2840px;
+    height: 524px;
+    z-index: -1;
+}

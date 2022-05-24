@@ -1,0 +1,13 @@
+.how-it-works__title {
+    font-size: 36px;
+    color: white;
+    opacity: 10%;
+    margin-top: 0;
+
+    line-height: 178%;
+}
+
+.how-it-works__title:first-of-type {
+    opacity: 100%;
+
+}

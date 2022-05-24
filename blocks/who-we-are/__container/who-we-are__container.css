@@ -1,0 +1,8 @@
+.who-we-are__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+    position: relative;
+    min-height: 787px;
+}

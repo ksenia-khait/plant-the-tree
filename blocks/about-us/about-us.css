@@ -1,0 +1,9 @@
+.about-us {
+    min-height: 300px;
+    margin-bottom: 160px;
+
+}
+
+.about-us:hover + .fadeInUp {
+
+}

@@ -1,0 +1,9 @@
+.who-we-are__text-img {
+    background-image: url("../../../images/ПОСАДИ ДЕРЕВО.png");
+    background-repeat: no-repeat;
+    width: 777px;
+    height: 98px;
+    top: 430px;
+    left: 70px;
+    position: absolute;
+}

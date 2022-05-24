@@ -1,0 +1,10 @@
+.who-we-are__img {
+    background-image: url("../../../images/hiw-tree-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 585px;
+    height: 442px;
+    position: absolute;
+    left: 183px;
+    top: 35px;
+}

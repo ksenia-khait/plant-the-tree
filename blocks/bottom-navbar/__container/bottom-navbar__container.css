@@ -1,0 +1,6 @@
+.bottom-navbar__container {
+    display: flex;
+    max-width: 1303px;
+    margin: 0 auto;
+    padding-bottom: 89px;
+}

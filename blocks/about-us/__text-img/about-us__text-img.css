@@ -1,0 +1,9 @@
+.about-us__text-img {
+    background-image: url("../../../images/О НАС.png");
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    left: 81px;
+    top: 199px;
+
+}

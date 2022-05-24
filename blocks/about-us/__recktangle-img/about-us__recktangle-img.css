@@ -1,0 +1,12 @@
+.about-us__recktangle-img {
+    background-image: url("../../../images/re.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 196px;
+    width: 396px;
+    position: absolute;
+    left: 370px;
+    top: 50px;
+    z-index: -1;
+
+}

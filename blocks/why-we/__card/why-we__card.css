@@ -1,0 +1,11 @@
+.why-we__card {
+    width: 372px;
+    margin-right: 33px;
+
+
+
+}
+
+.why-we__card:last-of-type {
+    margin: 0;
+}

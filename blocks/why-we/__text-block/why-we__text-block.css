@@ -1,0 +1,7 @@
+.why-we__text-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 0 118px;
+    max-width: 1170px;
+}

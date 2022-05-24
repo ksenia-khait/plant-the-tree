@@ -1,0 +1,6 @@
+.who-we-are__strengths-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 593px;
+    margin-bottom: 78px;
+}

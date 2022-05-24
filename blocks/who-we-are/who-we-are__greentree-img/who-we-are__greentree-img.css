@@ -1,0 +1,11 @@
+.who-we-are__greentree-img {
+    background-image: url("../../../images/wwr-greentree.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    width: 365px;
+    height: 460px;
+    position: absolute;
+    top: 108px;
+    left: 428px;
+}
