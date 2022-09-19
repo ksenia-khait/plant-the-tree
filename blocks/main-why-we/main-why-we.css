@@ -1,0 +1,75 @@
+.main-why-we {
+display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    padding-top: 123px;
+    position: relative;
+    margin-bottom: 261px;
+}
+
+.main-why-we__text-img {
+    position: absolute;
+    width: 775px;
+    right: 88px;
+    bottom: 93px;
+}
+
+.main-why-we__img {
+    position: absolute;
+    width: 585px;
+    bottom: 0;
+    left: -20px;
+}
+
+.main-why-we__container {
+    display: flex;
+
+    width: 1315px;
+    margin-bottom: 158px;
+}
+
+
+.main-why-we__numbers-box {
+    width: 554px;
+    margin-right: 192px;
+    margin-bottom: 40px;
+}
+
+.main-why-we__titles-box {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main-why-we__title-box {
+    margin-right: 60px;
+}
+
+.main-why-we__title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #95DE1D;
+    margin-bottom: 10px;
+}
+
+.main-why-we__subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 198px;
+    line-height: 180%;
+
+}
+
+.main-why-we__paragraph {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 160%;
+    margin: 0 0 60px;
+}
+
+.main-why-we__text-block {
+    width: 400px;
+    margin: 0;
+}

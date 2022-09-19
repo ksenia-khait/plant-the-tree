@@ -1,0 +1,39 @@
+.climat-project {
+
+}
+
+.climat-project__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 210px;
+}
+
+.climat-project__title {
+    margin: 0;
+    margin-bottom: 155px;
+}
+
+.climat-project__cards {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+}
+
+.climat-project__icons {
+    margin-bottom: 40px;
+    margin-right: 0;
+    position: center;
+    width: 120px;
+    height: 120px;
+}
+
+.climat-project__card {
+    margin-right: 40px;
+    width: 300px;
+}
+
+.climat-project__paragraph {
+    width: 300px;
+    line-height: 188%;
+}

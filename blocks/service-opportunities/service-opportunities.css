@@ -1,0 +1,57 @@
+.service-opportunities {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #F6F6F6;
+
+}
+
+
+.service-opportunities__container {
+    width: 1183px;
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.service-opportunities__text-block {
+    margin-top: 87px;
+    margin-right: 0;
+    width: 708px;
+}
+
+.service-opportunities__list {
+    margin-bottom: 61px;
+    padding: 0;
+    width: 100%;
+}
+
+.service-opportunities__list-item {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.service-opportunities__img {
+    width: 530px;
+    margin-top: -140px
+
+}
+
+.service-opportunities__images {
+    position: relative;
+
+}
+
+.service-opportunities__img-top {
+    position: absolute;
+    width: 503px;
+    right: -65px;
+    top: -29px;
+}
+
+

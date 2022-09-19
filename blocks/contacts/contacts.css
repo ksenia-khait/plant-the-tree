@@ -1,0 +1,132 @@
+.contacts {
+    position: relative;
+}
+
+.contacts__img {
+    position: absolute;
+    height: 442px;
+    right: -75px;
+    bottom: -255px;
+    opacity: 50%;
+}
+
+.contacts__container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.contacts__wrapper {
+    display: grid;
+    grid-template-rows: 254px 420px;
+    grid-template-columns: 300px 880px;
+    grid-auto-rows: 100px;
+    margin-bottom: 227px;
+}
+
+.contacts__title {
+    border-top: 4px solid #95DE1D;
+    padding-top: 20px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #707070;
+    width: 179px;
+}
+
+.box2 {
+
+}
+
+.contacts__address {
+    display: flex;
+    height: 80px;
+}
+
+.contacts__address-item {
+    margin-right: 82px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts__address-item:last-of-type {
+    margin-right: 0;
+}
+
+.contacts__address-icon {
+    height: 80px;
+    width: 80px;
+    margin-right: 40px;
+    box-shadow: 5px 16px 30px 0px rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+
+.contacts__address-icon-text {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    width: 500px;
+}
+
+.contacts__address-icon-img {
+    width: 40px;
+}
+
+.contacts__form {
+    width: 670px;
+    height: 370px;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contacts__form-name {
+    width: 616px;
+    margin: 0;
+    padding: 16px 27px;
+    margin-bottom: 26px;
+    outline: 1px solid #E2E2E2;
+    border: none;
+}
+
+.contacts__form-email {
+    width: 616px;
+    margin: 0;
+    padding: 16px 27px;
+    margin-bottom: 26px;
+    outline: 1px solid #E2E2E2;
+    border: none;
+}
+
+.contacts__form-textarea {
+    width: 616px;
+    margin: 0;
+    padding: 16px 27px;
+    margin-bottom: 40px;
+    outline: 1px solid #E2E2E2;
+    min-height: 145px;
+    border: none;
+    resize: none;
+}
+
+.contacts__form-submit-button {
+    font-family: 'Open Sans';
+    border-radius: 25px;
+    box-shadow: 5px 16px 30px 0px rgba(0, 0, 0, .1);
+    width: 153px;
+    height: 46px;
+    border: 1px solid #95DE1D;
+    background-color: white;
+    color: #245448;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.contacts__form-submit-button:hover {
+    cursor: pointer;
+    background-color: #95DE1D;
+}

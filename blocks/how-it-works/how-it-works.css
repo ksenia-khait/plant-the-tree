@@ -1,14 +1,14 @@
 
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translate3d(0, 100%, 0);
-    }
-    100% {
-        opacity: 1;
-        transform: none;
-    }
-}
+/*@keyframes fadeInUp {*/
+/*    0% {*/
+/*        opacity: 0;*/
+/*        transform: translate3d(0, 100%, 0);*/
+/*    }*/
+/*    100% {*/
+/*        opacity: 1;*/
+/*        transform: none;*/
+/*    }*/
+/*}*/
 
 
 
@@ -24,29 +24,29 @@
     height: 408px;
     padding: 24px;
 
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
+    /*transform: translate(0px, 120%);*/
+    /*opacity: 0;*/
+    /*transition: all 0.8s ease 0s;*/
 }
 
 
 .how-it-works__card._active .how-it-works__card:first-of-type{
-    transform: translate(0px, 0px);
-    opacity: 1;
-    transition: all 0.8s ease 0s;
+    /*transform: translate(0px, 0px);*/
+    /*opacity: 1;*/
+    /*transition: all 0.8s ease 0s;*/
 }
 
 .how-it-works__card._active {
-    transform: translate(0px, 0px);
-    opacity: 1;
-    transition: all 0.8s ease 0.1s;
+    /*transform: translate(0px, 0px);*/
+    /*opacity: 1;*/
+    /*transition: all 0.8s ease 0.1s;*/
 }
 
 
 .how-it-works__card._active .how-it-works__card:last-of-type{
-    transform: translate(0px, 0px);
-    opacity: 1;
-    transition: all 0.8s ease 0.2s;
+    /*transform: translate(0px, 0px);*/
+    /*opacity: 1;*/
+    /*transition: all 0.8s ease 0.2s;*/
 }
 
 .how-it-works__card:hover {
@@ -73,7 +73,7 @@
 
 .how-it-works__text {
     color: white;
-    opacity: 0.7;
+    /*opacity: 0.7;*/
     margin: 0;
     margin-top: 100px;
 }
@@ -81,6 +81,7 @@
 .how-it-works__number-title {
     font-size: 72px;
     margin: 0 0 8px;
+    /*opacity: 0.1;*/
 }
 
 .how-it-works__text-block {
@@ -101,6 +102,7 @@ display: flex;
     font-size: 14px;
     font-weight: 700;
     border-bottom: 4px solid #95DE1D;
+    /*opacity: 0;*/
 }
 
 .fadeInUp {

@@ -1,24 +1,14 @@
-/*.animation {*/
-
+/*!*block*!*/
+/*.anim-block {*/
+/*    transform: translate(0px, 120%);*/
+/*    opacity: 0;*/
+/*    transition: all 0.8s ease 0s;*/
 /*}*/
 
-/*.animation._active {*/
-
+/*.anim-block._active {*/
+/*    transform: translate(0px, 0px);*/
+/*    opacity: 1;*/
 /*}*/
-
-
-/*block*/
-.anim-block {
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-}
-
-.anim-block._active,
-._active .anim-block {
-    transform: translate(0px, 0px);
-    opacity: 1;
-}
 
 /*img*/
 .anim-img {
@@ -56,6 +46,3 @@
     opacity: 1;
 
 }
-
-/*     anim-paragraph anim-items anim-no-hide */
-/*anim-img anim-items anim-no-hide*/

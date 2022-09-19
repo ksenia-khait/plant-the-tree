@@ -1,372 +1,401 @@
-<!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Посади дерево</title>
-    <!--    <link href="./css/bootstrap.min.css" rel="stylesheet">-->
-    <link rel="stylesheet" href="./index.css">
-
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="script" href="index.js">
 </head>
-<body>
+<body class="body">
 <div class="page">
-    <header class="header">
-        <nav class="top-navbar">
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="top-navbar__item nav-link " href="#">Главная</a>
-                    <a class="top-navbar__item nav-link" href="#">О нас</a>
-                    <a class="top-navbar__item nav-link" href="#">Услуги</a>
-                    <a class="top-navbar__item nav-link" href="#">Новости</a>
-                    <a class="top-navbar__item nav-link" href="#">Компаниям</a>
-                    <a class="top-navbar__item nav-link" href="#">Контакты</a>
-                </div>
-            </div>
-            <button class="top-navbar__button" type="button">Вход</button>
-        </nav>
-    </header>
-
     <main class="content">
-        <!--AbOUT-US-->
-        <section class="about-us">
-            <div class="about-us__container">
-                <div class="about-us__text-img"></div>
-                <div class="about-us__img anim-img anim-items anim-no-hide"></div>
-                <div class="about-us__recktangle-img"></div>
-                <div class="about-us__text anim-title anim-items anim-no-hide">
-                    <div><p class="about-us__title">о компании</p></div>
-                    <nav class="about-us__mini-nav">
-                        <a href="#" class="about-us__link">Главная/</a>&nbsp;<a href="#" class="about-us__link">О
-                        компании</a>
-                    </nav>
+        <section class="main-header">
+            <header class="header">
+                <nav class="top-navbar">
+                    <img
+                            class="top-navbar__logo"
+                            src="images/Frame%202.svg"
+                            alt="Логотип">
+                    <div class="collapse navbar-collapse">
+                        <div class="navbar-nav">
+                            <a class="top-navbar__item nav-link main-header__white-text" href="./index.html">Главная</a>
+                            <a class="top-navbar__item nav-link main-header__white-text" href="aboutus.html">О нас</a>
+                            <a class="top-navbar__item nav-link main-header__white-text" href="news.html">Новости</a>
+                            <a class="top-navbar__item nav-link main-header__white-text"
+                               href="contacts.html">Контакты</a>
+                        </div>
+                        <button class="top-navbar__button" type="button">Вход</button>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="main-header__container">
+                <p class="main__text">СЕРВИС ВОССТАНОВЛЕНИЯ ЛЕСОВ</p>
+<!--                <p class="main__title anim-title anim-items anim-no-hide">ПОСАДИ <span class="main__span">ДЕРЕВО</span>-->
+                <p class="main__title">ПОСАДИ <span class="main__span">ДЕРЕВО</span>
+                </p>
+
+                <p class="main__subtitle">Внеси свой вклад в восстановление лесов
+                    и оставь свое имя в истории</p>
+                <div class="main__button" type="button">ПОСАДИТЬ ЛЕС<img class="button-icon" src="./images/button-svg.svg" alt="Стрелка">
                 </div>
             </div>
 
         </section>
+        <section class="main-why-we">
+            <img
+                    class="main-why-we__img"
+                    src="images/hiw-tree-image.png"
+                    alt="Дерево">
+            <div class="main-why-we__container">
+                <div class="main-why-we__numbers-box ">
+<!--                    <div class="main-why-we__titles-box anim-paragraph anim-items anim-no-hide">-->
+                    <div class="main-why-we__titles-box">
+                        <div class="main-why-we__title-box">
+                            <div class="main-why-we__title">100+</div>
+                            <div class="main-why-we__subtitle">ESG-проектов в России</div>
+                        </div>
+                        <div class="main-why-we__title-box">
+                            <div class="main-why-we__title">32 600</div>
+                            <div class="main-why-we__subtitle">Деревьев посажено
+                                в 2021 году
+                            </div>
+                        </div>
 
-        <!--WHO-WE-ARE-->
+                    </div>
+                    <div class="main-why-we__paragraph">С помощью нашей платформы любой желающий, будь то частное лицо
+                        или организация, может помочь природе восстановить свои ресурсы.
+                    </div>
+                </div>
+                <div>
+                    <div><p class="blank-text">&mdash; # 1 В РОССИИ</p></div>
+                    <div class="who-we-are__text-block why-we__text-block ">
+                        <div>
+                            <div>
+                                <p class="who-we-are__title why-we__title main-why-we__text-block">
+                                    Первый
+                                    комиссионный<br>
+                                    <span>ESG-продукт</span> в России</p></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="partners">
+                <div class="partners__box">
+                    <img
+                            class="partners__logo"
+                            src="images/Яндекс.png"
+                            alt="">
+                    <img
+                            class="partners__logo"
+                            src="images/Совкомбанк.png"
+                            alt="">
+                    <img
+                            class="partners__logo"
+                            src="images/ВТБ.png"
+                            alt="">
+                    <img
+                            class="partners__logo"
+                            src="images/Сбербанк.png"
+                            alt="">
+                </div>
+            </div>
+            <img
+                    class="main-why-we__text-img"
+                    src="images/SAVE%20THE%20FOREST.svg"
+                    alt="">
+
+        </section>
+        <!--что мы делаем-->
+        <section class="main-what-we-do">
+            <div class="main-what-we-do__container">
+                <div class="who-we-are__text-block who-we-are__text-block_margin">
+                    <div><p class="blank-text">&mdash; ЧТО МЫ ДЕЛАЕМ</p></div>
+                    <div><p class="who-we-are__title what-we-do__title">Сервис
+                        заботы о
+                        природе
+                        <span>для будущих</span>
+                        поколений</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="main-what-we-do__cards">
+                        <div class="main-what-we-do__card popped-down">
+                            <img
+                                    class="main-what-we-do__recktangle"
+                                    src="images/main-card-recktangle.png"
+                                    alt="Изображение">
+                            <div><p class="main-what-we-do__cards-subtitle">Посадка леса под ключ</p></div>
+                            <div>
+                                <img
+                                        class="main-what-we-do__card-img"
+                                        src="images/main-green-tree-card1.png"
+                                        alt="Изображение">
+                            </div>
+                        </div>
+                        <div class="main-what-we-do__card ">
+                            <img
+                                    class="main-what-we-do__recktangle"
+                                    src="images/main-card-recktangle.png"
+                                    alt="Изображение">
+                            <div><p class="main-what-we-do__cards-subtitle">Углеродная отчетность с помощью
+                                IT-решений</p></div>
+                            <div>
+                                <img
+                                        class="main-what-we-do__card-img"
+                                        src="images/main-green-tree-card2.png"
+                                        alt="Изображение">
+                            </div>
+                        </div>
+                        <div class="main-what-we-do__card popped-down">
+                            <img
+                                    class="main-what-we-do__recktangle"
+                                    src="images/main-card-recktangle.png"
+                                    alt="Изображение">
+                            <div><p class="main-what-we-do__cards-subtitle">Лес в подарок, зеленый офис,
+                                эко-тимбилдинги</p></div>
+                            <div><img
+                                    class="main-what-we-do__card-img"
+                                    src="images/main-green-tree-card3.png"
+                                    alt="Изображение">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--о проблеме-->
+        <section class="main-problems">
+            <img
+                    class="main-problems__img"
+                    src="images/bavarian-forest.png"
+                    alt="">
+
+            <div class="main-problems__container">
+
+                <img
+                        class="main-problems__svg"
+                        src="images/main-problrms-border.svg"
+                        alt="Изображение">
+                <div class="who-we-are__text-block who-we-are__text-block_margin">
+                    <div><p class="blank-text">&mdash; О ПРОБЛЕМЕ</p></div>
+                    <div>
+                        <p class="who-we-are__title what-we-do__title main-problems__title">
+                            Лес нужно беречь и
+                            <span>восстанавливать</span></p>
+                    </div>
+                </div>
+
+
+                <div class="main-problems__cards">
+                    <div class="main-problems__card">
+                        <div><p class="main-what-we-do__cards-subtitle main-problems__subtitle">Исчезновение леса</p>
+                        </div>
+                        <div><p class="main-why-we__paragraph main-problems__paragraph">За последние 40 лет количество
+                            деревьев на душу населения уменьшилось на 50 %. Это способствует глобальному потеплению и
+                            усиливает парниковый эффект.</p></div>
+                    </div>
+                    <div class="main-problems__card">
+                        <div><p class="main-what-we-do__cards-subtitle main-problems__subtitle">Экологическая
+                            катастрофа</p></div>
+                        <div><p class="main-why-we__paragraph main-problems__paragraph">В 2021 году в РФ сгорело более
+                            18 млн Га леса. Это абсолютный рекорд потерь за всю историю наблюдений.</p></div>
+                    </div>
+                    <div class="main-problems__card">
+                        <div><p class="main-what-we-do__cards-subtitle main-problems__subtitle">Важность баланса</p>
+                        </div>
+                        <div><p class="main-why-we__paragraph main-problems__paragraph">1 автомобиль поглощает 120 кг
+                            кислорода за 1000 км. 1 дерево выделяет такое же количество кислорода за 1 год, поглощая при
+                            этом такое же количество углекислого газа</p></div>
+                    </div>
+                </div>
+                <div><p class="main-problems__bottom-text">Проблемы лесов</p></div>
+            </div>
+        </section>
+
         <section class="who-we-are">
             <div class="who-we-are__container">
-                <div class="who-we-are__img anim-img anim-items anim-no-hide"></div>
-                <div class="who-we-are__text-img anim-img anim-items anim-no-hide"></div>
-                <div class="who-we-are__greentree-img anim-img anim-items anim-no-hide"></div>
-
+                <div class="who-we-are__img"></div>
+                <div class="who-we-are__text-img"></div>
+                <div class="who-we-are__greentree-img"></div>
                 <div class="who-we-are__text-block">
-                    <div><p class="blank-text">----- кто мы</p></div>
-                    <div><p class="who-we-are__title anim-title anim-items anim-no-hide">Онлайн-сервис <span>восстановления</span>
+                    <div><p class="blank-text">&mdash; КТО МЫ</p></div>
+                    <div><p class="who-we-are__title">Онлайн-сервис <span>восстановления</span>
                         леса</p></div>
                     <div>
-                        <div><p class="who-we-are__paragraph anim-paragraph anim-items anim-no-hide">Мы верим в то, что
+                        <div><p class="who-we-are__paragraph ">Мы верим в то, что
                             каждый может внести личный вклад в
                             улучшение
                             окружающей среды. Совместными усилиями мы восстановим лесные ресурсы - в этом и заключается
                             миссия
                             нашей компании.</p></div>
-                        <div><p class="who-we-are__paragraph anim-paragraph anim-items anim-no-hide">С помощью нашей
+                        <div><p class="who-we-are__paragraph">С помощью нашей
                             платформы любой желающий, будь то частное
                             лицо
                             или организация, может
                             помочь природе восстановить свои ресурсы.</p></div>
                         <div class="who-we-are__strengths-list">
-                            <div class="who-we-are__strength-item"><img alt="Изображение" src="./images/onchetnoct.svg"
-                                                                        class="who-we-are__strength-icon">
-                                <p class="who-we-are__strength-caption">отчетность</p></div>
-                            <div class="who-we-are__strength-item"><img alt="Изображение" src="./images/page%201.svg"
-                                                                        class="who-we-are__strength-icon">
-                                <p class="who-we-are__strength-caption">гарантия</p></div>
-                            <div class="who-we-are__strength-item"><img alt="Изображение" src="./images/hwr-plant.svg"
-                                                                        class="who-we-are__strength-icon">
+                            <div class="who-we-are__strength-item">
+                                <img
+                                        alt="Изображение"
+                                        src="images/onchetnoct.svg"
+                                        class="who-we-are__strength-icon">
+                                <p class="who-we-are__strength-caption">Отчетность</p></div>
+                            <div class="who-we-are__strength-item">
+                                <img
+                                        alt="Изображение"
+                                        src="images/page%201.svg"
+                                        class="who-we-are__strength-icon">
+                                <p class="who-we-are__strength-caption">Гарантия</p></div>
+                            <div class="who-we-are__strength-item">
+                                <img
+                                        alt="Изображение"
+                                        src="images/hwr-plant.svg"
+                                        class="who-we-are__strength-icon">
                                 <p class="who-we-are__strength-caption">№1 в России</p></div>
                         </div>
                     </div>
-                    <button class="who-we-are__button ">Посадить лес</button>
+                    <button class="who-we-are__button" type="button">Посадить лес</button>
                 </div>
             </div>
         </section>
+        <section class="climat-project">
+            <div class="climat-project">
+                <div class="climat-project__container">
+                    <div><p class="who-we-are__title climat-project__title">Климатический проект</p></div>
 
-        <!--WHAT-WE-DO-->
-        <section class="what-we-do">
-            <div class="what-we-do__container">
-                <img class="what-we-do__right-leaf-img" src="./images/wwd-right-leaf-img.png" alt="Изображение">
-                <img class="what-we-do__left-leaf-img" src="./images/wwd-left-leaf-img.png" alt="Изображение">
-                <img class="what-we-do__tree-img" src="./images/wwd-tree-img.png" alt="Изображение">
-                <div class="what-we-do__first-row ">
-
-
-                    <div class="who-we-are__text-block who-we-are__text-block_margin">
-                        <div><p class="blank-text">----- что мы делаем</p></div>
-                        <div><p class="who-we-are__title what-we-do__title anim-title anim-items anim-no-hide">Сервис
-                            заботы о
-                            природе
-                            <span>для будущих</span>
-                            поколений</p></div>
-
-                        <div class="who-we-are__text-block who-we-are__text-block_margin">
-                            <div class="who-we-are__flex anim-paragraph anim-items anim-no-hide">
-                                <img src="./images/01..png" alt="#" class="how-it-works__number">
-                                <div>
-                                    <div><p class="what-we-do__subtitle">Посадка леса под ключ</p></div>
-                                    <div>
-                                        <div><p class="who-we-are__paragraph what-we-do__paragraph">Компенсируйте свой
-                                            углеродный след!
-                                            Выберите участок и количество деревьев, которые хотите посадить. Команда
-                                            лесничих
-                                            высадит
-                                            саженцы и будет заботиться о них, а вы получите отчеты о росте вашего леса в
-                                            личном
-                                            кабинете.</p></div>
-                                    </div>
-                                    <button class=" who-we-are__button what-we-do__button">Подробнее</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <img alt="Изображение" class="what-we-do__phone-vertical-img anim-img anim-items anim-no-hide"
-                         src="./images/wwd-phone-first-img.png">
-                </div>
-
-                <div class="what-we-do__second-row">
-
-                    <img alt="Изображение" class="phone-horizontal-img anim-img anim-items anim-no-hide" src="./images/wwd-phone-second-img.png">
-                    <div class="who-we-are__flex anim-paragraph anim-items anim-no-hide">
-                        <img src="./images/02..png" alt="#" class="how-it-works__number">
-                        <div class="who-we-are__text-block">
-                            <div><p class="what-we-do__subtitle">Углеродная отчетность</p></div>
+                    <div class="climat-project__cards">
+                        <div class="who-we-are__text-block why-we__card climat-project__card">
                             <div>
-
-                                <div><p class="who-we-are__paragraph">Внедрим IT-систему учета углеродного следа вашей
-                                    компании.
-                                    Разработаем стратегию компенсации и ESG-программу экологической ответственности.
-                                    Подготовим
-                                    ESG-отчетность по международным стандартам.</p></div>
+                                <img
+                                        alt="Изображение"
+                                        src="images/Цель.png"
+                                        class="who-we-are__strength-icon why-we__icon climat-project__icons">
                             </div>
-                            <button class="who-we-are__button what-we-do__button">Подробнее</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="what-we-do__third-row">
-                    <div class="who-we-are__flex anim-paragraph anim-items anim-no-hide">
-                        <img src="./images/03..png" alt="#" class="how-it-works__number">
-                        <div class="who-we-are__text-block">
-                            <div><p class="what-we-do__subtitle">Корпоративные мероприятия</p></div>
                             <div>
-                                <div><p class="who-we-are__paragraph ">Компенсируйте свой углеродный след!
-                                    Выберите участок и количество деревьев, которые хотите посадить. Команда лесничих
-                                    высадит
-                                    саженцы и будет заботиться о них, а вы получите отчеты о росте вашего леса в личном
-                                    кабинете.</p>
-                                </div>
+                                <p class="who-we-are__paragraph why-we__paragraph climat-project__paragraph">
+                                    Наша цель - помочь
+                                    достигнуть углеродной
+                                    нейтральности
+                                    нашими партнерами
+                                    и сохранение
+                                    окружающей среды</p></div>
+                        </div>
+                        <div class="climat-project__card">
+                            <div><img
+                                    alt="Изображение"
+                                    src="images/Зеленые%20проекты.png"
+                                    class="who-we-are__strength-icon why-we__icon climat-project__icons">
                             </div>
-                            <button class="what-we-do__button who-we-are__button">Подробнее</button>
+
+                            <div>
+                                <p class="who-we-are__paragraph why-we__paragraph climat-project__paragraph">
+                                    Зеленые проекты направлены
+                                    на достижение целей Парижского
+                                    соглашения, реализация таких
+                                    проектов способствует восстановлению окружающей среды</p>
+                            </div>
+                        </div>
+                        <div class="who-we-are__text-block why-we__card climat-project__card">
+                            <div>
+                                <img
+                                        alt="Изображение"
+                                        src="images/Партнерский%20кейс.png"
+                                        class="who-we-are__strength-icon why-we__icon climat-project__icons">
+                            </div>
+
+                            <div>
+                                <p class="who-we-are__paragraph why-we__paragraph climat-project__paragraph">
+                                    В рамках отдельного
+                                    партнерского кейса
+                                    мы будем создавать
+                                    трехсторонний
+                                    Климатический
+                                    или Зеленый проект</p></div>
+                        </div>
+                        <div class="who-we-are__text-block why-we__card climat-project__card">
+                            <div>
+                                <img
+                                        alt="Изображение"
+                                        src="images/Рейтинг.png"
+                                        class="who-we-are__strength-icon why-we__icon climat-project__icons">
+                            </div>
+
+                            <div>
+                                <p class="who-we-are__paragraph why-we__paragraph climat-project__paragraph">
+                                    За реализацию
+                                    Климатического проекта
+                                    начисляются Углеродные
+                                    единицы, которые в
+                                    совокупности с другими
+                                    факторами влияют
+                                    на ESG-рейтинг Партнера</p></div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
-        <!--WHY-WE-->
-        <section class="why-we">
-            <div class="why-we__container">
-                <div><p class="blank-text">----- # 1 В РОССИИ</p></div>
-                <div class="who-we-are__text-block why-we__text-block">
+        <section class="service-opportunities">
+
+            <div class="service-opportunities__container">
+                <div class=" faq__text-block service-opportunities__text-block">
+                    <div><p class=" who-we-are__title">Возможности сервиса</p></div>
                     <div>
+                        <div><p class="main-why-we__paragraph">Используя нашу платформу, вы сможете помогать природе в 3
+                            клика</p></div>
 
-                        <div><p class="who-we-are__title why-we__title anim-title anim-items anim-no-hide">Первый
-                            комиссионный<br>
-                            <span>ESG-продукт</span></p></div>
-                    </div>
-
-                    <div>
-                        <div><p class="who-we-are__paragraph why-we__paragraph_margin ">Наша онлайн-платформа объединила
-                            всех участников процесса восстановления леса, сделав для каждого комфортным доступ к
-                            информации
-                            и бизнес-процессам</p></div>
-                        <button class="who-we-are__button what-we-do__button why-we__button">Посадить лес</button>
-                    </div>
-
-                </div>
-
-                <div class="why-we__cards">
-                    <div class="who-we-are__text-block why-we__card">
-
-                        <div><img alt="Изображение" src="./images/hwr-plant.svg"
-                                  class="who-we-are__strength-icon why-we__icon anim-img anim-items anim-no-hide"></div>
-                        <div><p class="what-we-do__subtitle why-we__subtitle">Гарантия&nbspпосадки,&nbspрегулярного
-                            ухода и сохранности вашего
-                            леса</p></div>
-
-                        <div><p class="who-we-are__paragraph why-we__paragraph anim-paragraph anim-items anim-no-hide">Для высаживания мы используем
-                            сертифицированный посадочный материал, который отвечает требованиям района, где ведется
-                            посадка.</p></div>
-                    </div>
-
-                    <div class="who-we-are__text-block why-we__card">
-                        <div><img alt="Изображение" src="./images/hwr-plant.svg"
-                                  class="who-we-are__strength-icon why-we__icon anim-img anim-items anim-no-hide"></div>
-                        <div><p class="what-we-do__subtitle why-we__subtitle">Прозрачная отчетность на всех языках</p>
+                        <div class="display-flex">
+                            <img
+                                    src="images/checklist.svg"
+                                    alt="Изображение">
+                            <ul>
+                                <li class="service-opportunities__list-item ">Калькулятор углеродного следа</li>
+                            </ul>
                         </div>
-                        <div><p class="who-we-are__paragraph why-we__paragraph anim-paragraph anim-items anim-no-hide">Мы регулярно формируем отчеты о
-                            проделанной
-                            работе, которые вы можете загрузить в личном кабинете вместе с фотографиями</p></div>
-                    </div>
+                        <div class="display-flex">
+                            <img
+                                    src="images/checklist.svg"
+                                    alt="Изображение">
+                            <p class="service-opportunities__list-item ">Удобный личный кабинет с использованием
+                                последних IT-технологий
+                            </p>
+                        </div>
+                        <div class="display-flex">
+                            <img
+                                    src="images/checklist.svg"
+                                    alt="Изображение">
+                            <p class="service-opportunities__list-item ">ESG-отчетность для физических и
+                                юридических лиц
+                            </p>
+                        </div>
 
-                    <div class="who-we-are__text-block why-we__card">
-                        <div><img alt="Изображение" src="./images/hwr-plant.svg"
-                                  class="who-we-are__strength-icon why-we__icon anim-img anim-items anim-no-hide"></div>
-                        <div><p class="what-we-do__subtitle why-we__subtitle">Экологичные тренды</p></div>
-                        <div><p class="who-we-are__paragraph why-we__paragraph anim-paragraph anim-items anim-no-hide">Инвестирование в проекты по посадке
-                            деревьев
-                            - одна из самых эффективных стратегий социальной ответственности</p></div>
                     </div>
+                    <button class="who-we-are__button what-we-do__button" type="button">Посадить лес</button>
+                </div>
+                <div class="service-opportunities__images">
+                    <img class="service-opportunities__img-top"
+                         src="images/service-opp-top-img.png"
+                         alt="Изображение">
+                    <img
+                            class="service-opportunities__img"
+                            src="images/wwd-phone-first-img.png"
+                            alt="Изображение">
                 </div>
             </div>
-        </section>
 
-        <!--HOW-IT-WORKS -->
-        <section class="how-it-works">
-            <img src="./images/hiw-tree-image.png" alt="Изображение" class="how-it-works__img">
-            <div class="how-it-works__container">
-                <div><p class="how-it-works__top-text">как это работает</p></div>
-                <div class="who-we-are__text-block why-we__text-block how-it-works__text-block">
-                    <div>
 
-                        <div>
-                            <p class="who-we-are__title why-we__title how-it-works__title anim-title anim-items anim-no-hide">
-                                Процесс очень прост и
-                                прозрачен</p></div>
-                    </div>
-
-                    <div>
-                        <div><p class="who-we-are__paragraph why-we__paragraph_margin how-it-works__text ">Что нужно,
-                            чтобы компенсировать
-                            свой
-                            углеродный след и посадить дерево?</p></div>
-
-                    </div>
-
-                </div>
-
-                <div class="why-we__cards">
-                    <div class="who-we-are__text-block why-we__card how-it-works__card anim-items anim-no-hide">
-
-                        <div><p class="how-it-works__number-title">01</p></div>
-                        <div><p class="what-we-do__subtitle">Старт</p></div>
-
-                        <div class="how-it-works__card-link-section">
-                            <div><p class="who-we-are__paragraph why-we__paragraph ">Выберите участок на карте и укажите
-                                количество саженцев. Придумайте название леса и оплатите его восстановление.</p></div>
-                            <div><a href="#" class="how-it-works__link">Узнать больше</a></div>
-                        </div>
-
-                    </div>
-
-                    <div class="who-we-are__text-block why-we__card how-it-works__card anim-items anim-no-hide">
-                        <div><p class="how-it-works__number-title">02</p></div>
-                        <div><p class="what-we-do__subtitle">Посадка</p></div>
-
-                        <div class="how-it-works__card-link-section">
-                            <div><p class="who-we-are__paragraph why-we__paragraph">Профессиональные лесничие сажают ваш
-                                лес
-                                и
-                                заботятся о нем. Вы получаете сертификат на весь лес или на каждое дерево и наблюдаете
-                                за
-                                ростом
-                                своего леса через личный кабинет.</p></div>
-
-                            <div><a href="#" class="how-it-works__link">Узнать больше</a></div>
-                        </div>
-
-                    </div>
-
-                    <div class="who-we-are__text-block why-we__card how-it-works__card anim-items anim-no-hide">
-
-                        <div><p class="how-it-works__number-title">03</p></div>
-                        <div><p class="what-we-do__subtitle">Рост</p></div>
-                        <div class="how-it-works__card-link-section">
-                            <div><p class="who-we-are__paragraph why-we__paragraph">В течение 5 лет вы получаете
-                                регулярные
-                                отчеты от лесничего о росте леса с фотографиями</p></div>
-                            <div><a href="#" class="how-it-works__link">Узнать больше</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--FAQ-->
-        <section class="faq">
-            <img src="./images/faq-forest-image.png" alt="" class="faq__img">
-            <div class="faq__container">
-                <div class="who-we-are__text-block faq__text-block">
-
-                    <div><p class="what-we-do__subtitle faq__title anim-title anim-items anim-no-hide">Частые
-                        вопросы</p></div>
-                    <div>
-                        <div><p class="who-we-are__paragraph anim-paragraph anim-items anim-no-hide">Здесь вы найдете ответы на самые частые вопросы. Не
-                            беспокойтесь, если не найдете нужную информацию - используйте поиск или обратитесь напрямую
-                            в <a class="faq__link" href="#">службу поддержки</a>.</p></div>
-                    </div>
-                    <button class="who-we-are__button what-we-do__button faq__button">Спросить у консультанта</button>
-                </div>
-
-                <div class="faq__accordion">
-                    <button class="accordion who-we-are__flex anim-paragraph anim-items anim-no-hide">Как работает сервис?
-                        <div class="accordion-opened">
-                            <div class="accordion-closed"></div>
-                        </div>
-                    </button>
-                    <div class="panel">
-                        <p>После активации аккаунта вы получаете доступ к каталогу территорий под посадку леса,
-                            выбираете
-                            куда хотите посадить деревья, их количество, оплачиваете посадку. После того, как лес будет
-                            высажен, вы получите фотоотчет с геопозицией, а также именной сертификат.</p>
-                    </div>
-
-                    <button class="accordion who-we-are__flex anim-paragraph anim-items anim-no-hide">Сколько стоит посадка 1 дерева?
-                        <div class="accordion-opened">
-                            <div class="accordion-closed"></div>
-                        </div>
-                    </button>
-                    <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
-                    </div>
-
-                    <button class="accordion who-we-are__flex anim-paragraph anim-items anim-no-hide">Какие деревья вы сажаете?
-                        <div class="accordion-opened">
-                            <div class="accordion-closed"></div>
-                        </div>
-                    </button>
-                    <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
-                    </div>
-
-                    <button class="accordion who-we-are__flex anim-paragraph anim-items anim-no-hide">Сколько деревьев я могу посадить?
-                        <div class="accordion-opened">
-                            <div class="accordion-closed"></div>
-                        </div>
-                    </button>
-                    <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
-                    </div>
-
-                    <button class="accordion who-we-are__flex anim-paragraph anim-items anim-no-hide">Могу ли я приехать в свой лес?
-                        <div class="accordion-opened">
-                            <div class="accordion-closed"></div>
-                        </div>
-                    </button>
-                    <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <!--BOTTOM-NAV-BAR-->
@@ -376,62 +405,63 @@
                     <p class="bottom-navbar__title">Посади дерево</p>
                     <p class="bottom-navbar__description">Онлайн-сервис восстановления лесов. Присоединяйтесь! Давайте
                         вернем природе то, что она нам подарила.</p>
-
                 </div>
-
                 <div class="bottom-navbar__column">
                     <p class="bottom-navbar__title">О проекте</p>
                     <nav class="bottom-navbar__links">
-                        <li class="link"><a class="bottom-navbar__link" href="#!">Главная</a></li>
-                        <li class="link"><a class="bottom-navbar__link" href="#!">О нас</a></li>
-                        <li class="link"><a class="bottom-navbar__link" href="#!">Новости</a></li>
-                        <li class="link"><a class="bottom-navbar__link" href="#!">Команда</a></li>
-                        <li class="link"><a class="bottom-navbar__link" href="#!">FAQ</a></li>
+                        <ul>
+                            <li class="link"><a class="bottom-navbar__link" href="./index.html">Главная</a></li>
+                            <li class="link"><a class="bottom-navbar__link" href="./aboutus.html">О нас</a></li>
+                            <li class="link"><a class="bottom-navbar__link" href="./news.html">Новости</a></li>
+                            <li class="link"><a class="bottom-navbar__link" href="#!">FAQ</a></li>
+                        </ul>
                     </nav>
                 </div>
-
                 <div class="bottom-navbar__column">
                     <p class="bottom-navbar__title">Для компаний</p>
                     <nav class="bottom-navbar__links">
-                        <li class="link"><a class="bottom-navbar__link" href="#!">Сотрудничество</a></li>
-                        <li class="link"><a class="bottom-navbar__link" href="#!">ESG-принципы</a></li>
-                        <li class="link"><a class="bottom-navbar__link" href="#!">Процесс</a></li>
-                        <li class="link"><a class="bottom-navbar__link" href="#!">Документы</a></li>
-                        <li class="link"><a class="bottom-navbar__link" href="#!">Регистрация</a></li>
+                        <ul>
+                            <li class="link"><a class="bottom-navbar__link" href="#!">Сотрудничество</a></li>
+                            <li class="link"><a class="bottom-navbar__link" href="#!">ESG-принципы</a></li>
+                            <li class="link"><a class="bottom-navbar__link" href="#!">Процесс</a></li>
+                            <li class="link"><a class="bottom-navbar__link" href="#!">Документы</a></li>
+                            <li class="link"><a class="bottom-navbar__link" href="#!">Регистрация</a></li>
+                        </ul>
                     </nav>
                 </div>
-
                 <div class="bottom-navbar__column">
                     <p class="bottom-navbar__title">Контакты</p>
-                    <p class="bottom-navbar__phone-number"><img src="./images/phone.png" alt="Изображение"
-                                                                class="bottom-navbar__phone-icon">+7 495 122 258 55</p>
-                    <p class="bottom-navbar__address">Москва, ул.Набережная д.23 офис 456</p>
+                    <p class="bottom-navbar__address">Москва, Багратионовский проезд, дом 7 корпус 20в офис 539</p>
                     <nav class="bottom-navbar__icons">
-                        <li class=" link"><a href="#" class="bottom-navbar__icon"><img class="bottom-navbar__icon-img"
-                                                                                       alt="Изображение"
-                                                                                       src="./images/vk.png"></a></li>
-                        <li class=" link"><a href="#" class="bottom-navbar__icon"><img class="bottom-navbar__icon-img"
-                                                                                       alt="Изображение"
-                                                                                       src="./images/telegram.png"></a>
-                        </li>
-                        <li class=" link"><a href="#" class="bottom-navbar__icon"><img class="bottom-navbar__icon-img"
-                                                                                       alt="Изображение"
-                                                                                       src="./images/youtube.svg"></a>
-                        </li>
-
+                        <ul class="bottom-navbar__ul">
+                            <li class=" link">
+                                <a href="#" class="bottom-navbar__icon">
+                                    <img class="bottom-navbar__icon-img"
+                                         alt="Изображение"
+                                         src="images/vk.png">
+                                </a>
+                            </li>
+                            <li class=" link">
+                                <a href="#" class="bottom-navbar__icon">
+                                    <img class="bottom-navbar__icon-img"
+                                         alt="Изображение"
+                                         src="images/telegram.png">
+                                </a>
+                            </li>
+                            <li class=" link">
+                                <a href="#" class="bottom-navbar__icon">
+                                    <img class="bottom-navbar__icon-img"
+                                         alt="Изображение"
+                                         src="images/youtube.svg">
+                                </a>
+                            </li>
+                        </ul>
                     </nav>
                 </div>
             </div>
-
+            <div><p class="bottom-navbar__copyright">&copy; 2022 "Сохрани лес" ООО. Все права защищены</p></div>
         </footer>
-
     </main>
-
 </div>
-
-<script src="./index.js"></script>
-<!--<script src="./js/bootstrap.bundle.min.js"></script>-->
-
 </body>
-<link rel="script" href="./index.js">
 </html>

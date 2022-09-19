@@ -3,13 +3,21 @@
     font-size: 16px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     text-decoration: none;
     margin: 0 138px 26px 0;
     padding-top: 26px;
+}
 
+.navbar-collapse {
+    display: flex;
+    align-items: center;
+}
 
+.top-navbar__logo {
+    margin-left: 81px;
+    height: 40px;
 }
 
 

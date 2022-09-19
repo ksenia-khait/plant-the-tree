@@ -1,0 +1,86 @@
+.main-header {
+    position: relative;
+    background-color: #9C9494;
+    background-image: url("../../images/main-img.png");
+    width: 1920px;
+    height: 988px;
+    background-repeat: no-repeat;
+
+}
+
+.main-header__white-text {
+    color: white;
+}
+
+.main-header__container {
+    padding-top: 146px;
+    margin-left: 378px;
+    width: 734px;
+}
+
+.main__logo {
+    top: 39px;
+    left: 80px;
+    position: absolute;
+    height: 50px;
+}
+
+.main__text {
+    margin: 0;
+    margin-bottom: 32px;
+    color: #95DE1D;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.main__title {
+    font-weight: 300;
+    font-size: 116px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 31px;
+
+}
+
+.main__span {
+    font-weight: 700;
+    font-size: 128px;
+    color: #95DE1D;
+    margin-left: 100px;
+}
+
+.main__subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.main__button {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 5px 16px 30px 0px rgba(0, 0, 0, .1);
+    width: 207px;
+    height: 60px;
+    justify-content: space-around;
+    border: 1px solid #95DE1D;
+    background-color: #95DE1D;
+    color: #245448;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main__button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.button-icon {
+    background-image: url("../../images/button-svg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 22px;
+}
