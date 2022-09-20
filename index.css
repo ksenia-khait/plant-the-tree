@@ -1,90 +1,90 @@
-@import url('normalize.css');
-@import url('blocks/vendor/fonts/fonts.css');
-@import url('blocks/page/page.css');
+@import url('./normalize.css');
+@import url('./blocks/vendor/fonts/fonts.css');
+@import url('./blocks/page/page.css');
 
 /*top-nav-bar*/
-@import url('blocks/header');
-@import url('blocks/top-navbar/top-navbar.css');
-@import url('blocks/top-navbar/top-navbar__item/top-navbar__item.css');
-@import url('blocks/top-navbar/top-navbar__button/top-navbar__button.css');
+@import url('./blocks/header');
+@import url('./blocks/top-navbar/top-navbar.css');
+@import url('./blocks/top-navbar/top-navbar__item/top-navbar__item.css');
+@import url('./blocks/top-navbar/top-navbar__button/top-navbar__button.css');
 
 /*about-us*/
-@import url('blocks/about-us/about-us.css');
-@import url('blocks/about-us/__container/about-us__container.css');
-@import url('blocks/about-us/__text-img/about-us__text-img.css');
-@import url('blocks/about-us/__text/about-us__text.css');
-@import url('blocks/about-us/__recktangle-img/about-us__recktangle-img.css');
-@import url('blocks/about-us/about-us__img/about-us__img.css');
-@import url('blocks/about-us/__title/about-us__title.css');
-@import url('blocks/about-us/__link/about-us__link.css');
+@import url('./blocks/about-us/about-us.css');
+@import url('./blocks/about-us/__container/about-us__container.css');
+@import url('./blocks/about-us/__text-img/about-us__text-img.css');
+@import url('./blocks/about-us/__text/about-us__text.css');
+@import url('./blocks/about-us/__recktangle-img/about-us__recktangle-img.css');
+@import url('./blocks/about-us/about-us__img/about-us__img.css');
+@import url('./blocks/about-us/__title/about-us__title.css');
+@import url('./blocks/about-us/__link/about-us__link.css');
 
 /*who-we-are*/
-@import url('blocks/who-we-are/who-we-are.css');
-@import url('blocks/who-we-are/__container/who-we-are__container.css');
-@import url('blocks/who-we-are/who-we-are__img/who-we-are__img.css');
-@import url('blocks/who-we-are/who-we-are__greentree-img/who-we-are__greentree-img.css');
-@import url('blocks/who-we-are/__text-img/who-we-are__text-img.css');
-@import url('blocks/who-we-are/who-we-are__text-block/who-we-are__text-block.css');
-@import url('blocks/who-we-are/who-we-are__text-block/_margin/who-we-are__text-block_margin.css');
-@import url('blocks/who-we-are/who-we-are__title/who-we-are__title.css');
-@import url('blocks/who-we-are/who-we-are__title/_spanned');
-@import url('blocks/who-we-are/who-we-are__button/who-we-are__button.css');
-@import url('blocks/who-we-are/__paragraph/who-we-are__paragraph.css');
-@import url('blocks/who-we-are/__strengths-list/who-we-are__strengths-list.css');
-@import url('blocks/who-we-are/__strength-item/who-we-are__strength-item.css');
-@import url('blocks/who-we-are/__strength-icon/who-we-are__strength-icon.css');
-@import url('blocks/who-we-are/__flex/who-we-are__flex.css');
+@import url('./blocks/who-we-are/who-we-are.css');
+@import url('./blocks/who-we-are/__container/who-we-are__container.css');
+@import url('./blocks/who-we-are/who-we-are__img/who-we-are__img.css');
+@import url('./blocks/who-we-are/who-we-are__greentree-img/who-we-are__greentree-img.css');
+@import url('./blocks/who-we-are/__text-img/who-we-are__text-img.css');
+@import url('./blocks/who-we-are/who-we-are__text-block/who-we-are__text-block.css');
+@import url('./blocks/who-we-are/who-we-are__text-block/_margin/who-we-are__text-block_margin.css');
+@import url('./blocks/who-we-are/who-we-are__title/who-we-are__title.css');
+@import url('./blocks/who-we-are/who-we-are__title/_spanned');
+@import url('./blocks/who-we-are/who-we-are__button/who-we-are__button.css');
+@import url('./blocks/who-we-are/__paragraph/who-we-are__paragraph.css');
+@import url('./blocks/who-we-are/__strengths-list/who-we-are__strengths-list.css');
+@import url('./blocks/who-we-are/__strength-item/who-we-are__strength-item.css');
+@import url('./blocks/who-we-are/__strength-icon/who-we-are__strength-icon.css');
+@import url('./blocks/who-we-are/__flex/who-we-are__flex.css');
 
 /*what-we-do*/
-@import url('blocks/what-we-do/what-we-do.css');
-@import url('blocks/what-we-do/__container/what-we-do__container.css');
-@import url('blocks/what-we-do/__first-row/what-we-do__first-row.css');
-@import url('blocks/what-we-do/__second-row/what-we-do__second-row.css');
-@import url('blocks/what-we-do/__third-row/what-we-do__third-row.css');
-@import url('blocks/what-we-do/__subtitle/what-we-do__subtitle.css');
-@import url('blocks/what-we-do/__phone-vertical-img/what-we-do__phone-vertical-img.css');
-@import url('blocks/what-we-do/__phone-horizontal-img/what-we-do__phone-horizontal-img.css');
-@import url('blocks/what-we-do/__button/what-we-do__button.css');
-@import url('blocks/what-we-do/__title/what-we-do__title.css');
-@import url('blocks/what-we-do/__paragraph/what-we-do__paragraph.css');
-@import url('blocks/what-we-do/__tree-img/what-we-do__tree-img.css');
-@import url('blocks/what-we-do/__right-leaf-img/what-we-do__right-leaf-img.css');
-@import url('blocks/what-we-do/__left-leaf-img/what-we-do__left-leaf-img.css');
+@import url('./blocks/what-we-do/what-we-do.css');
+@import url('./blocks/what-we-do/__container/what-we-do__container.css');
+@import url('./blocks/what-we-do/__first-row/what-we-do__first-row.css');
+@import url('./blocks/what-we-do/__second-row/what-we-do__second-row.css');
+@import url('./blocks/what-we-do/__third-row/what-we-do__third-row.css');
+@import url('./blocks/what-we-do/__subtitle/what-we-do__subtitle.css');
+@import url('./blocks/what-we-do/__phone-vertical-img/what-we-do__phone-vertical-img.css');
+@import url('./blocks/what-we-do/__phone-horizontal-img/what-we-do__phone-horizontal-img.css');
+@import url('./blocks/what-we-do/__button/what-we-do__button.css');
+@import url('./blocks/what-we-do/__title/what-we-do__title.css');
+@import url('./blocks/what-we-do/__paragraph/what-we-do__paragraph.css');
+@import url('./blocks/what-we-do/__tree-img/what-we-do__tree-img.css');
+@import url('./blocks/what-we-do/__right-leaf-img/what-we-do__right-leaf-img.css');
+@import url('./blocks/what-we-do/__left-leaf-img/what-we-do__left-leaf-img.css');
 
 /*why-we*/
-@import url('blocks/why-we/why-we.css');
-@import url('blocks/why-we/__title/why-we__title.css');
-@import url('blocks/why-we/__cards/why-we__cards.css');
-@import url('blocks/why-we/__card/why-we__card.css');
-@import url('blocks/why-we/__icon/why-we__icon.css');
-@import url('blocks/why-we/__paragraph/why-we__paragraph.css');
-@import url('blocks/why-we/__paragraph/_margin/why-we__paragraph_margin.css');
-@import url('blocks/why-we/__text-block/why-we__text-block.css');
-@import url('blocks/why-we/__subtitle/why-we__subtitle.css');
-@import url('blocks/why-we/__button/why-we__button.css');
+@import url('./blocks/why-we/why-we.css');
+@import url('./blocks/why-we/__title/why-we__title.css');
+@import url('./blocks/why-we/__cards/why-we__cards.css');
+@import url('./blocks/why-we/__card/why-we__card.css');
+@import url('./blocks/why-we/__icon/why-we__icon.css');
+@import url('./blocks/why-we/__paragraph/why-we__paragraph.css');
+@import url('./blocks/why-we/__paragraph/_margin/why-we__paragraph_margin.css');
+@import url('./blocks/why-we/__text-block/why-we__text-block.css');
+@import url('./blocks/why-we/__subtitle/why-we__subtitle.css');
+@import url('./blocks/why-we/__button/why-we__button.css');
 
 /*HOW_IT_WORKS*/
-@import url('blocks/how-it-works/how-it-works.css');
-@import url('blocks/how-it-works/__container/how-it-works__container.css');
-@import url('blocks/how-it-works/__img/how-it-works__img.css');
-@import url('blocks/how-it-works/__title/how-it-works__title.css');
-@import url('blocks/how-it-works/__number/how-it-wirks__number.css');
+@import url('./blocks/how-it-works/how-it-works.css');
+@import url('./blocks/how-it-works/__container/how-it-works__container.css');
+@import url('./blocks/how-it-works/__img/how-it-works__img.css');
+@import url('./blocks/how-it-works/__title/how-it-works__title.css');
+@import url('./blocks/how-it-works/__number/how-it-wirks__number.css');
 
 /*FAQ*/
-@import url('blocks/faq/faq.css');
-@import url('blocks/faq/__container/faq__container.css');
-@import url('blocks/faq/__accordion/faq__accordion.css');
-@import url('blocks/faq/__img/faq__img.css');
-@import url('blocks/faq/__button/faq__button.css');
+@import url('./blocks/faq/faq.css');
+@import url('./blocks/faq/__container/faq__container.css');
+@import url('./blocks/faq/__accordion/faq__accordion.css');
+@import url('./blocks/faq/__img/faq__img.css');
+@import url('./blocks/faq/__button/faq__button.css');
 
 /*BOTTOM-navbar*/
-@import url('blocks/bottom-navbar/bottom-navbar.css');
-@import url('blocks/bottom-navbar/__container/bottom-navbar__container.css');
-@import url('blocks/blank-text/blank-text.css');
-@import url('blocks/animation/animation.css');
+@import url('./blocks/bottom-navbar/bottom-navbar.css');
+@import url('./blocks/bottom-navbar/__container/bottom-navbar__container.css');
+@import url('./blocks/blank-text/blank-text.css');
+@import url('./blocks/animation/animation.css');
 
 /*Contacts*/
-@import url('blocks/contacts/contacts.css');
+@import url('./blocks/contacts/contacts.css');
 
 /*NEWS*/
 @import url('./blocks/news/news.css');
