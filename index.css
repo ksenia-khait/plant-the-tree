@@ -87,13 +87,13 @@
 @import url('blocks/contacts/contacts.css');
 
 /*NEWS*/
-@import url('blocks/news/news.css');
-@import url('blocks/main-header/main-header.css');
-@import url('blocks/climat-project/climat-project.css');
-@import url('blocks/main-why-we/main-why-we.css');
-@import url('blocks/main-what-we-do/main-what-we-do.css');
-@import url('blocks/main-problems/main-problems.css');
-@import url('blocks/service-opportunities/service-opportunities.css');
+@import url('./blocks/news/news.css');
+@import url('./blocks/main-header/main-header.css');
+@import url('./blocks/climat-project/climat-project.css');
+@import url('./blocks/main-why-we/main-why-we.css');
+@import url('./blocks/main-what-we-do/main-what-we-do.css');
+@import url('./blocks/main-problems/main-problems.css');
+@import url('./blocks/service-opportunities/service-opportunities.css');
 
 
 .body {
